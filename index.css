@@ -1,0 +1,335 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+#navbar{
+  height: 80px;
+  width: 100%;
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  z-index: 1000; /* Ensures navbar is on top */
+  padding: 10px;
+
+}
+
+#vector{
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+#rectangle{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+#Dapper{
+font-family: cursive;
+  font-size: 40.43px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  text-decoration: none;
+ color: white;
+
+
+}  
+  li {
+
+    font-size: 25px;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  #down{
+    position:absolute;
+    margin-top: 12px;
+  }
+  #navmenu{
+    position: absolute;
+    margin-left: 400px;
+  }
+
+  div #left {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 90px;
+    border-radius: 5px;
+   
+    
+  }
+
+  div #right {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 480px;
+    border-radius: 5px;
+   min-height: 370px;
+    min-width: 950px;
+    background-color:#E5D8FF;
+
+
+  }
+  
+
+  div #boxdiv .boxes{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 100px;
+    width: 250px;
+    height: 90px;
+    border-radius: 10px;
+    padding-top: 10px;
+    color: white;
+    background-color:#929DFF;
+    
+  }
+  div #boxdiv .b2{
+    margin-left: 470px;    
+    background-color:#734CF2;
+    
+  }
+  div #boxdiv .b3{
+    margin-left: 840px;    
+    background-color:#D288FF;
+
+  }
+  div #boxdiv .b4{
+    margin-left: 1190px;    
+    background-color:#000000;
+
+  }
+
+
+  #boxdiv{
+    display:flex;
+    direction: row;
+
+    
+  }
+
+  #flex{
+    height: 1500px;
+  }
+
+  #infodiv{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 100px;
+    background-color: blue;
+    height: 500px;
+    width: 1350px;
+    border-radius: 15px; 
+  } 
+#infomenu{
+
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 460px;
+  width: 420px;
+  background-color: blue;
+ 
+}
+
+
+#Information{
+  position: absolute;
+  margin-top: 820px;
+  margin-left: 590px;
+  height: 460px;
+  width: 840px;
+  background-color:#FFFFFF;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+#infomenu  .f1{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 90px;
+  background-color: #BCE0F6;
+ padding-top: 20px;
+  border-radius: 10px;
+}
+
+#infomenu  .f2{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 90px;
+  background-color: blue;
+  border: 2px solid white;
+  color: #FFFFFF;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+#infomenu  .f3{
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 90px;
+  color: #FFFFFF;
+  background-color: blue;
+  border: 2px solid white;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+#infomenu  .info{
+  
+  height: 80px;
+  width: 200px;
+  
+}
+
+#socialicon img{
+  position: fixed;
+ 
+  margin-left: 1450px;
+   margin-top: 100px;
+}
+
+#helpicon img{
+  position: fixed;
+ 
+  margin-left: 1390px;
+   margin-top: 560px;
+  
+}
+#next{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 700px;
+  height: 30px;
+  width: 70px;
+  background-color: #000000;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+  /* #flex{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #imagediv{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    flex:2
+  }
+  #left{
+    
+    background-color: aliceblue;
+    flex:2
+
+  }
+
+  #right{
+    
+    background-color: aliceblue;
+    flex:4
+
+  }
+  #boxdiv{
+    position: absolute;
+    display: flex;
+    margin-top: 400px;
+    flex-direction: row;
+    background-color: aliceblue;
+    flex:0.5
+
+  }
+  #boxdiv .b1{ 
+    background-color: rgb(65, 16, 200);
+    flex:2
+
+  }
+  #boxdiv .b2{
+    margin-left: 470px;
+    background-color: rgb(192, 121, 15);
+    flex:2
+
+  }
+  #boxdiv .b3{
+    margin-left: 840px;   
+    background-color: rgb(32, 212, 74);
+    flex:2
+
+  }
+  #boxdiv .b4{
+    margin-left: 1190px;   
+    background-color: rgb(203, 224, 13);
+    flex:2
+
+
+  }
+  #infodiv{
+    height: 500px;
+    width: 1350px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 21, 236);
+    flex:6
+  }
+
+ 
+
+  
+  #infomenu{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(36, 21, 236);
+    flex:1
+
+
+
+  }
+
+  #infomenu .f1{
+
+    background-color: rgb(192, 121, 15);
+    flex:2
+
+  }
+  #infomenu .f2{
+
+    background-color: rgb(32, 212, 74);
+    flex:2
+
+  }
+  #infomenu .f3{
+
+    background-color: rgb(203, 224, 13);
+    flex:2
+
+
+  }
+  #info{
+    background-color: rgb(129, 127, 158);
+    flex:2
+  } */
